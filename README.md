@@ -17,12 +17,6 @@ A lightweight resume analyzer built using **Google’s Gemini 2.5 Flash** and **
 ## How to Run
 
 1. Install the requirements:
-# Resume Analyzer with Gemini AI
-
-## How to Run
-
-1. Install the requirements:
-
 ```bash
 pip install -r requirements.txt
 ```
