@@ -1,2 +1,33 @@
-# resume-analyzer
-This is a **lightweight, single-notebook project** that analyzes resumes using **Google's Gemini 1.5 Flash** and provides feedback based on a given job description. Built with 🧠 **Gradio**, 💬 **Gemini API**, and Python
+# Resume Analyzer
+
+A lightweight resume analyzer built using **Google’s Gemini 2.5 Flash** and **Gradio** in a single Jupyter notebook. It compares resumes with job descriptions and gives AI-powered feedback including match score, strengths, missing skills, and improvement suggestions.
+
+## Features
+
+- Upload resumes in **PDF** or **DOCX** format
+- Extracts **LinkedIn URLs**
+- Uses **Gemini API** to analyze resume content against any job description
+- Returns:
+  - Match Score (0–100)
+  - Top 3 Strengths
+  - Missing Qualifications
+  - Suggestions to improve the resume
+- Simple and interactive **Gradio interface**
+
+## How to Run
+
+1. Install the requirements:
+```bash
+pip install -r requirements.txt
+
+2. Create a .env file with your Gemini API key:
+GOOGLE_API_KEY=your_api_key_here
+
+3. Open the Jupyter notebook and run it.
+
+## Tech Stack
+
+- Python
+- Gradio
+- Google Generative AI (gemini-2.5-flash)
+- pdfplumber / PyPDF2 / python-docx
