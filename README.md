@@ -17,11 +17,21 @@ A lightweight resume analyzer built using **Google’s Gemini 2.5 Flash** and **
 ## How to Run
 
 1. Install the requirements:
+# Resume Analyzer with Gemini AI
+
+## How to Run
+
+1. Install the requirements:
+
 ```bash
 pip install -r requirements.txt
+```
 
-2. Create a .env file with your Gemini API key:
+2. Create a `.env` file with your Gemini API key:
+
+```bash
 GOOGLE_API_KEY=your_api_key_here
+```
 
 3. Open the Jupyter notebook and run it.
 
@@ -29,5 +39,8 @@ GOOGLE_API_KEY=your_api_key_here
 
 - Python
 - Gradio
-- Google Generative AI (gemini-2.5-flash)
-- pdfplumber / PyPDF2 / python-docx
+- Google Generative AI (Gemini 1.5/2.0)
+- PDF Processing:
+  - pdfplumber (primary)
+  - PyPDF2 (fallback)
+  - python-docx (for Word files)
