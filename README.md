@@ -33,7 +33,7 @@ GOOGLE_API_KEY=your_api_key_here
 
 - Python
 - Gradio
-- Google Generative AI (Gemini 1.5/2.0)
+- Google Generative AI (Gemini-2.5-Flash)
 - PDF Processing:
   - pdfplumber (primary)
   - PyPDF2 (fallback)
