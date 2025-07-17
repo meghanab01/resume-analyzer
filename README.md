@@ -1,6 +1,6 @@
 # Resume Analyzer
 
-A lightweight resume analyzer built using **Google’s Gemini 2.5 Flash** and **Gradio** in a single Jupyter notebook. It compares resumes with job descriptions and gives AI-powered feedback including match score, strengths, missing skills, and improvement suggestions.
+A lightweight resume analyzer built using **Google’s Gemini 2.5 Flash** and **Gradio**. It compares resumes with job descriptions and gives AI-powered feedback including match score, strengths, missing skills, and improvement suggestions.
 
 ## Features
 
