@@ -3,10 +3,10 @@ __pycache__/
 *.py[cod]
 
 # Virtual environments
-.env
 .venv/
 venv/
 env/
+myenv/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -30,6 +30,6 @@ Thumbs.db
 .mypy_cache/
 .cache/
 
-# PDF or resume test files 
+# PDF or resume test files (optional)
 *.pdf
 *.docx
